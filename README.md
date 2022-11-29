@@ -3,10 +3,7 @@
   
 <br />
 <div align="center">
- 
     <img src="images/logo.png" alt="Logo" width="80" height="80">
- 
-
   <h3 align="center">Forward Backward algorithm</h3> 
 </div>
 
@@ -20,7 +17,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Set up</a>
+      <a href="#set-up">Set up</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
       </ul>
