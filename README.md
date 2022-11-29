@@ -7,7 +7,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
  
 
-  <h3 align="center">Policy and value iteration implementation</h3> 
+  <h3 align="center">Forward Backward algorithm</h3> 
 </div>
 
 
@@ -86,24 +86,27 @@ To set up this project locally follow these steps
  
 1. Clone the repo
    ```sh
-   git clone https://github.com/Jamal2IA/Policy-iteration-value-iteration-implementation.git
+   git clone https://github.com/Jamal2IA/Forward-backward-algorithm-HMM.git
    ```
 3. create a new virtual environment ( if you want to work with your main environment skip step 2  and 3 )
    ```sh
-   conda create -n pviteration
+   conda create -n forwardbackward
    ```
 4. Add it as a kernel 
    ```sh
    conda install -c anaconda ipykernel
    ```
    ```sh
-   python -m ipykernel install --user --name=pviteration
+   python -m ipykernel install --user --name=forwardbackward
    ```
 5. Install numpy
    ```sh
    pip install numpy
    ```
-
+6. Install pandas
+   ```sh
+   pip install pandas
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -115,7 +118,7 @@ To set up this project locally follow these steps
 
 Jamal Rebii- [JamalAI](https://jamal-ai.vercel.app/) - rebiijamal1@gmail.com
 
-Project Link: [https://github.com/Jamal2IA/Policy-iteration-value-iteration-implementation.git](https://github.com/Jamal2IA/Policy-iteration-value-iteration-implementation)
+Project Link: [https://github.com/Jamal2IA/Forward-backward-algorithm-HMM](https://github.com/Jamal2IA/Forward-backward-algorithm-HMM)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
