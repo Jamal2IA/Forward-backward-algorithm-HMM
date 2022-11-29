@@ -38,9 +38,9 @@ Hidden Markov Model is a Markov Chain which is mainly used in problems with temp
 
 As we have discussed earlier, Hidden Markov Model $(\theta)$ has with following parameters:
 - Set of M Hidden States $\left(S^M\right)$
-- A Transaction Probability Matrix (A)
-- A sequence of $T$ observations $\left(V^T\right)$
-- A Emission Probability Matrix (Also known as Observation Likelihood) (B)
+- A Transaction Probability Matrix (P)
+- A sequence of $T$ observations $\left(O^T\right)$
+- A Emission Probability Matrix (Also known as Observation Likelihood) (Q)
 - An Initial Probability Distribution $(\pi)$
 In case you are not sure of any of above terminology, please refer my previous article on Introduction to Hidden Markov Model:
 
