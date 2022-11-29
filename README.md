@@ -3,10 +3,7 @@
   
 <br />
 <div align="center">
- 
     <img src="images/logo.png" alt="Logo" width="80" height="80">
- 
-
   <h3 align="center">Policy and value iteration implementation</h3> 
 </div>
 
@@ -48,17 +45,7 @@ As we have discussed earlier, Hidden Markov Model $(\theta)$ has with following 
 In case you are not sure of any of above terminology, please refer my previous article on Introduction to Hidden Markov Model:
 
 Forward-backward pseudo-code :
-
- 
     <img src="images/pseudo.png" alt="pseudo code" >
-
-
- 
-
- 
- 
-
-
 
 <!-- Set up-->
  ## Set up
