@@ -112,8 +112,9 @@ To set up this project locally follow these steps
 
 <!-- CONTACT -->
 ## Contact
+Jihane Karib - Karibjihane@gmail.com
 
-Jamal Rebii- [JamalAI](https://jamal-ai.vercel.app/) - rebiijamal1@gmail.com
+Jamal Rebii  - [JamalAI](https://jamal-ai.vercel.app/) - rebiijamal1@gmail.com
 
 Project Link: [https://github.com/Jamal2IA/Forward-backward-algorithm-HMM](https://github.com/Jamal2IA/Forward-backward-algorithm-HMM)
 
