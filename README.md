@@ -49,11 +49,10 @@ In case you are not sure of any of above terminology, please refer my previous a
 
 Forward-backward pseudo-code :
 
-algorithm forward_backward is
+
     input: guessState
            int sequenceIndex
     output: result
-
     if sequenceIndex is past the end of the sequence then
         return 1
     if (guessState, sequenceIndex) has been seen before then
