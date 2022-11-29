@@ -3,7 +3,10 @@
   
 <br />
 <div align="center">
+ 
     <img src="images/logo.png" alt="Logo" width="80" height="80">
+ 
+
   <h3 align="center">Policy and value iteration implementation</h3> 
 </div>
 
@@ -32,13 +35,23 @@
 ## About The Project
  
 
-This project provides an implementation of policy and value iteration for an MDP .
+Hidden Markov Model is a Markov Chain which is mainly used in problems with temporal sequence of data. Markov Model explains that the next step depends only on the previous step in a temporal sequence. In Hidden Markov Model the state of the system is hidden (invisible), however each state emits a symbol at every time step.
 
 
-The policy and value iteration algorithms are on-model algorithm , which means it can only be used if the MDP is known .
 
+As we have discussed earlier, Hidden Markov Model $(\theta)$ has with following parameters:
+- Set of M Hidden States $\left(S^M\right)$
+- A Transaction Probability Matrix (A)
+- A sequence of $T$ observations $\left(V^T\right)$
+- A Emission Probability Matrix (Also known as Observation Likelihood) (B)
+- An Initial Probability Distribution $(\pi)$
+In case you are not sure of any of above terminology, please refer my previous article on Introduction to Hidden Markov Model:
 
-To use this code , you need to model your MDP then change the states and actions space .
+Forward-backward pseudo-code :
+
+ 
+    <img src="images/pseudo.png" alt="pseudo code" >
+
 
  
 
