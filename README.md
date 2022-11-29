@@ -3,7 +3,10 @@
   
 <br />
 <div align="center">
+ 
     <img src="images/logo.png" alt="Logo" width="80" height="80">
+ 
+
   <h3 align="center">Policy and value iteration implementation</h3> 
 </div>
 
@@ -45,7 +48,34 @@ As we have discussed earlier, Hidden Markov Model $(\theta)$ has with following 
 In case you are not sure of any of above terminology, please refer my previous article on Introduction to Hidden Markov Model:
 
 Forward-backward pseudo-code :
-    <img src="images/pseudo.png" alt="pseudo code" >
+
+algorithm forward_backward is
+    input: guessState
+           int sequenceIndex
+    output: result
+
+    if sequenceIndex is past the end of the sequence then
+        return 1
+    if (guessState, sequenceIndex) has been seen before then
+        return saved result
+
+    result := 0
+
+    for each neighboring state n:
+        result := result + (transition probability from guessState to 
+                            n given observation element at sequenceIndex)
+                            × Backward(n, sequenceIndex + 1)
+
+    save result for (guessState, sequenceIndex)
+
+    return result
+
+ 
+
+ 
+ 
+
+
 
 <!-- Set up-->
  ## Set up
